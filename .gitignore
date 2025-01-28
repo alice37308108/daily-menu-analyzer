@@ -1,0 +1,18 @@
+.idea/
+__pycache__/
+*.pyc
+venv/
+
+# macOSの場合
+.DS_Store
+
+# VSCodeを使う可能性がある場合
+.vscode/
+
+# 環境設定ファイル
+.env
+
+# Pythonの配布関連ファイル
+*.egg-info/
+dist/
+build/
