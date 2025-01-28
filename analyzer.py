@@ -117,8 +117,8 @@ def analyze_sales_pattern(sales_data):
 # メイン処理
 if __name__ == "__main__":
     # CSVファイルの読み込み
-    sales_data = pd.read_csv('sales_data.csv')
-    prepared_data = pd.read_csv('prepared_data.csv')
+    sales_data = pd.read_csv('sales_data.csv',encoding='utf-8')
+    prepared_data = pd.read_csv('prepared_data.csv',encoding='utf-8')
 
     # 人気度分析の実行
     results = analyze_menu_popularity(sales_data, prepared_data)
